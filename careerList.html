@@ -18,9 +18,9 @@
 
 
     <title>Hopper.com</title>
-    <link rel="stylesheet" href="careerList.css">
-    <link rel="stylesheet" href="careerListMediaQ.css">
-    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="css/careerList.css">
+    <link rel="stylesheet" href="css/careerListMediaQ.css">
+    <link rel="icon" href="images/careerListIMG/favicon.ico">
 
 </head>
 
@@ -32,8 +32,8 @@
 
             <nav class="nav">
                 <div class="back-btn-div">
-                    <li class="header-back-btn"><a class="back-link white" href="#"><i
-                                class="back-icon fa fa-arrow-left"></i>Back</a> </li>
+                    <li class="header-back-btn"><a class="back-link white" href="#"><i class="back-icon fa fa-arrow-left"></i>Back</a></li>
+                    <li><a href="#"  class="question-icon"><i class=" fa fa-question-circle-o"></i></a></li>
                 </div>
 
                 <div class="flex-ul">
@@ -55,54 +55,66 @@
             </nav>
 
             <h1 class="header-text white">We are looking for curious problem solvers. Sounds familiar?</h1>
+        </div>
 
-            <!-- Filters Section -->
-            <div class="filters">
-                <div class="filters-box-con">
-                    <div class="filters-box">
-                        <p>
-                            <input type="search" placeholder="Search Position" name="Search Positions" class="filters-searchInput" id=""> 
-                        </p>
-                    </div>
+        <!-- Filters Section -->
+        <div class="filters-con">
+            <div class="row in-filters">
+                <div class="filters-item col-md-12 col-lg-3">
+                    <input class="filters-search" type="search" placeholder="Search Positions">
+                    <i class="fa fa-search search-icon"></i>
+                </div>
 
-                    <div class="filters-box ">
-                        <p>All Department <i class="fa fa-caret-down"></i></p>
-                    </div>
+                <div class="filters-item col-md-12 col-lg-3">
+                    <button class="filters-btn">All Department <i class="fa fa-caret-down btn-icon"></i></button>
+                </div>
 
-                    <div class="filters-box ">
-                        <p>All Cities <i class="fa fa-caret-down"></i></p>
-                    </div>
+                <div class="filters-item col-md-12 col-lg-3">
+                    <button class="filters-btn">All Cities <i class="fa fa-caret-down btn-icon"></i></button>
+                </div>
 
-                    <div class="filters-box ">
-                        <p class="filters-NOborder-box">434 available position</p>
-                    </div>
-
+                <div class="filters-item col-md-12 col-lg-3">
+                    <button class="filters-NOborder-btn">434 available position</button>
                 </div>
 
             </div>
+
         </div>
     </header>
 
+    <!-- list section
+
+    <div class="list">
+
+        <ul>
+            <li>Position</li>
+            <li>Department</li>
+            <li>Cities</li>
+        </ul>
+
+
+    </div> -->
 
 
 
 
 
-    <script src="careerList.js"></script>
+
+        <script src="js/careerList.js"></script>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
