@@ -1,11 +1,11 @@
 /* import font */
 @font-face {
 	font-family: ProximaNova;
-	src: url(fonts/ProximaNova.otf);
+	src: url(/fonts/ProximaNova.otf);
 }
 @font-face {
 	font-family: SourceSerifPro;
-	src: url(fonts/sourceserifpro.otf);
+	src: url(/fonts/SourceSerifPro.otf);
 }
 
 /* Base styles */
