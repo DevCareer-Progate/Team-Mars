@@ -11,6 +11,8 @@
 /* Base styles */
 body {
 	background: #ffffff;
+	font-family: ProximaNova;
+
 }
 a {
 	text-decoration: none;
